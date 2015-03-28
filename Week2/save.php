@@ -14,7 +14,7 @@
    $time = $_POST['time'];
    // this is how you convert the date from the form to SQL formatted date:
    // date ("Y-m-d H:i:s", strtotime(dataFromDateField.' '.dataFromTimeField));
-   $data['sqlDate'] = date ("Y-m-d H:i:s", strtotime($date.' '.$time));;
+   $data['sqlDate'] = date ("Y-m-d H:i:s", strtotime($date.' '.$time));
    
    
 // this part was in dbConnect.php in last period:
